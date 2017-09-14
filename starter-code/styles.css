@@ -3,23 +3,32 @@
 * {
   margin: 0;
   padding: 0;
+}
+
+body {
   font-family: 'Open Sans', sans-serif;
   font-weight: lighter;
 }
 
-
 h1 {
   font-size: 48px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h1, h2 {
   color: white;
   padding-top: .107em;
   padding-bottom: .107em;
+  font-weight: lighter;
 }
 
-p , .btn {
+p, .btn, .link {
   font-size: 18px;
-  color: white;
+  color: rgba(255, 255, 255, 0.8);
 }
-
 
 nav {
   background-color: #C12127;
@@ -27,7 +36,6 @@ nav {
   padding: 0.625em 0;
   font-size: 0.9em;
   line-height: 25px;
-
 }
 
 nav a {
@@ -54,7 +62,6 @@ nav a {
 .heart {
   padding: 0 20px;
 }
-
 
 #header {
   background-image: url(images/city-scape.svg);
@@ -89,4 +96,49 @@ nav a {
   border-radius: 20px;
   padding: 7px 26px 8px 26px;
   font-size: 18px;
+}
+
+#org-sign-up {
+  background-color: rgb(39, 53, 71);
+}
+
+.collaboration-container {
+  padding: 120px 10px;
+  height: 334px;
+  margin: 0 auto;
+  width: 1160px;
+}
+
+.row {
+  float: left;
+  padding: 0 10px;
+  margin-left: 4%;
+  width: 42%;
+  height: 334px;
+}
+
+.row .btn {
+  background-color: rgb(203, 56, 55);
+}
+
+article ul {
+  padding: 10.5px 0;
+  position: relative;
+  left: 18px;
+}
+
+article li {
+  color: white;
+  padding: 0  0  23px 10px;
+}
+
+.link {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  padding-top: 7px;
+}
+
+.link:hover {
+  text-decoration: underline;
 }
