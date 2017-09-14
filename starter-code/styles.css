@@ -3,15 +3,29 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
 }
+
+
+h1 {
+  font-size: 48px;
+  color: white;
+  padding-top: .107em;
+  padding-bottom: .107em;
+}
+
+p , .btn {
+  font-size: 18px;
+  color: white;
+}
+
 
 nav {
   background-color: #C12127;
   color: rgba(255,255,255,0.8);
   padding: 0.625em 0;
-  font-family: 'Open Sans', sans-serif;
   font-size: 0.9em;
-  font-weight: lighter;
   line-height: 25px;
 
 }
@@ -36,6 +50,43 @@ nav a {
 .top-left {
   display: inline-block;
 }
+
 .heart {
   padding: 0 20px;
+}
+
+
+#header {
+  background-image: url(images/city-scape.svg);
+  background-position: 0.0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(32, 101, 136);
+  height: 450px;
+}
+
+.npm-sign-up {
+  width: 1160px;
+  height: 243px;
+  padding: 40px;
+  margin: 0 auto;
+}
+
+.npm-sign-up p {
+  width: 560px;
+  height: 68px;
+  padding-bottom: 20px;
+  margin: 10px 0;
+}
+
+.npm-sign-up .btn {
+  background-color: rgb(240, 146, 51);
+}
+
+.btn {
+  text-decoration: none;
+  font-weight: 400;
+  border-radius: 20px;
+  padding: 7px 26px 8px 26px;
+  font-size: 18px;
 }
