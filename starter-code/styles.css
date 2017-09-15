@@ -27,39 +27,28 @@ h1, h2, h3, h4 {
   font-weight: lighter;
 }
 
-#header p {
-  font-size: 18px;
-}
-
-#npm-features {
-  text-align: center;
-}
-
-#npm-features p {
-  color: rgb(135, 145, 156);
-}
-
-#npm-features h2, #npm-features h4 {
-  color: rgb(83, 88, 98);
-}
-
-#npm-features h2 {
-  padding: 1.2em;
-}
-
-#npm-features h4 {
-  font-weight: bold;
-  font-size: 20px;
-}
-
 p {
   padding: 10.5px 0;
   margin-bottom: 12px;
 }
 
-.btn, .link {
-  color: rgba(255, 255, 255, 0.8);
+a {
+  text-decoration: none;
 }
+
+.container {
+  height: 334px;
+  margin: 0 auto;
+  width: 1160px;
+  padding: 120px 10px;
+}
+
+.col {
+  float: left;
+  margin-left: 4%;
+}
+
+/*************************NAV**************************************************/
 
 nav {
   background-color: #C12127;
@@ -70,7 +59,6 @@ nav {
 
 nav a {
   color: rgba(255,255,255,0.8);
-  text-decoration: none;
 }
 
 .top-links {
@@ -93,40 +81,7 @@ nav a {
   padding: 0 20px;
 }
 
-#header {
-  background-image: url(images/city-scape.svg);
-  height: 450px;
-}
-
-#npm-install {
-  background-image: url(images/forklift.svg);
-  height: 508px;
-}
-
-#header, #npm-install {
-  background-position: 0.0;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: rgb(32, 101, 136);
-}
-
-.npm-sign-up {
-  width: 1160px;
-  height: 243px;
-  padding: 40px;
-  margin: 0 auto;
-}
-
-.npm-sign-up p {
-  width: 560px;
-  height: 68px;
-  padding-bottom: 20px;
-  margin: 10px 0;
-}
-
-.npm-sign-up .btn {
-  background-color: rgb(240, 146, 51);
-}
+/****************** BUTTONS & LINKS ********************************************/
 
 .btn {
   text-decoration: none;
@@ -136,47 +91,9 @@ nav a {
   font-size: 18px;
 }
 
-#org-sign-up {
-  background-color: rgb(39, 53, 71);
-}
-
-#org-sign-up .btn {
-  background-color: rgb(203, 56, 55);
-}
-
-#org-sign-up .container {
-  padding: 120px 10px;
-}
-
-.container {
-  height: 334px;
-  margin: 0 auto;
-  width: 1160px;
-}
-
-.row {
-  float: left;
-  padding: 0 10px;
-  margin-left: 4%;
-  width: 42%;
-  height: 334px;
-}
-
-article ul {
-  padding: 10.5px 0;
-  position: relative;
-  left: 18px;
-}
-
-article li {
-  color: white;
-  padding: 0  0  23px 10px;
-}
-
 .link {
   color: white;
   font-weight: bold;
-  text-decoration: none;
   padding-top: 7px;
 }
 
@@ -184,10 +101,72 @@ article li {
   text-decoration: underline;
 }
 
-#npm-install .row {
+.btn, .link {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/****************** HEADER ****************************************************/
+
+#header {
+  background-image: url(images/city-scape.svg);
+  height: 450px;
+}
+
+#header p {
+  font-size: 18px;
+}
+
+/* search bar <------ *********************************************************/
+
+.npm-sign-up {
+  margin-left: 180px;
+  padding: 40px;
+  width: 560px;
+}
+
+.npm-sign-up .btn {
+  background-color: rgb(240, 146, 51);
+}
+
+
+/*SECTION 2 - org-sign-up ******************************************************/
+
+#org-sign-up {
+  background-color: rgb(39, 53, 71);
+}
+
+#org-sign-up .col {
+  padding: 0 10px;
+  width: 42%;
+}
+
+#org-sign-up .btn {
+  background-color: rgb(203, 56, 55);
+}
+
+#org-sign-up ul {
+  padding: 10.5px 0;
+  position: relative;
+  left: 18px;
+}
+
+#org-sign-up li {
+  color: white;
+  padding: 0  0  23px 10px;
+}
+
+
+
+/*NPM-INTALL*******************************************************************/
+
+#npm-install {
+  background-image: url(images/forklift.svg);
+  height: 508px;
+}
+
+#npm-install .col {
   width: 25%;
   padding: 120px 0 0 142px;
-  height: 334px;
 }
 
 #npm-install .btn {
@@ -198,9 +177,33 @@ article li {
   background-color: rgb(39, 53, 71);
 }
 
-#npm-features a {
-  color: rgb(203, 56, 55);
-  text-decoration: none;
+/*NPM-FEATURE******************************************************************/
+
+#npm-features {
+  text-align: center;
+}
+
+#npm-features.container {
+  padding-top: 70px;
+}
+
+#npm-features h4 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#npm-features h2, #npm-features h4 {
+  color: rgb(83, 88, 98);
+}
+
+#npm-features p {
+  color: rgb(135, 145, 156);
+}
+
+#npm-features .col {
+  width: 20%;
+  padding: 20px;
+  margin-left: 8%;
 }
 
 #npm-features img {
@@ -208,7 +211,6 @@ article li {
   margin: 0 auto;
 }
 
-#npm-features .row {
-  width: 25%;
-  padding: 20px;
+#npm-features a {
+  color: rgb(203, 56, 55);
 }
