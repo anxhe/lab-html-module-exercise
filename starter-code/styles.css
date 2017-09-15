@@ -14,19 +14,23 @@ h1 {
   font-size: 48px;
 }
 
-h2 {
+h2, h3 {
   font-size: 36px;
 }
 
-h1, h2 {
+h1, h2, h3 {
   color: white;
   padding-top: .107em;
   padding-bottom: .107em;
   font-weight: lighter;
 }
 
-p, .btn, .link {
+#header p {
   font-size: 18px;
+}
+
+p, .btn, .link {
+  font-size: 16px;
   color: rgba(255, 255, 255, 0.8);
 }
 
@@ -65,11 +69,19 @@ nav a {
 
 #header {
   background-image: url(images/city-scape.svg);
+  height: 450px;
+}
+
+#npm-install {
+  background-image: url(images/forklift.svg);
+  height: 508px;
+}
+
+#header, #npm-install {
   background-position: 0.0;
   background-repeat: no-repeat;
   background-size: cover;
   background-color: rgb(32, 101, 136);
-  height: 450px;
 }
 
 .npm-sign-up {
@@ -100,6 +112,10 @@ nav a {
 
 #org-sign-up {
   background-color: rgb(39, 53, 71);
+}
+
+#org-sign-up .btn {
+  background-color: rgb(203, 56, 55);
 }
 
 .collaboration-container {
@@ -141,4 +157,23 @@ article li {
 
 .link:hover {
   text-decoration: underline;
+}
+
+#npm-install .row {
+  width: 30%;
+  padding: 120px 135px;
+  height: 334px;
+}
+
+.row p {
+  padding: 0 0 10.5px;
+  margin-bottom: 12px;
+}
+
+#npm-install .btn {
+  background-color: rgb(49, 68, 88);
+}
+
+#npm-install .btn:hover {
+  background-color: rgb(39, 53, 71);
 }
