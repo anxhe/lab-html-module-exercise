@@ -6,7 +6,9 @@
 }
 
 body {
+  color: rgba(255, 255, 255, 0.8);
   font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
   font-weight: lighter;
 }
 
@@ -18,10 +20,10 @@ h2, h3 {
   font-size: 36px;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   color: white;
-  padding-top: .107em;
-  padding-bottom: .107em;
+  padding-top: 0.107em;
+  padding-bottom: 0.107em;
   font-weight: lighter;
 }
 
@@ -29,14 +31,38 @@ h1, h2, h3 {
   font-size: 18px;
 }
 
-p, .btn, .link {
-  font-size: 16px;
+#npm-features {
+  text-align: center;
+}
+
+#npm-features p {
+  color: rgb(135, 145, 156);
+}
+
+#npm-features h2, #npm-features h4 {
+  color: rgb(83, 88, 98);
+}
+
+#npm-features h2 {
+  padding: 1.2em;
+}
+
+#npm-features h4 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+p {
+  padding: 10.5px 0;
+  margin-bottom: 12px;
+}
+
+.btn, .link {
   color: rgba(255, 255, 255, 0.8);
 }
 
 nav {
   background-color: #C12127;
-  color: rgba(255,255,255,0.8);
   padding: 0.625em 0;
   font-size: 0.9em;
   line-height: 25px;
@@ -118,8 +144,11 @@ nav a {
   background-color: rgb(203, 56, 55);
 }
 
-.collaboration-container {
+#org-sign-up .container {
   padding: 120px 10px;
+}
+
+.container {
   height: 334px;
   margin: 0 auto;
   width: 1160px;
@@ -131,10 +160,6 @@ nav a {
   margin-left: 4%;
   width: 42%;
   height: 334px;
-}
-
-.row .btn {
-  background-color: rgb(203, 56, 55);
 }
 
 article ul {
@@ -160,14 +185,9 @@ article li {
 }
 
 #npm-install .row {
-  width: 30%;
-  padding: 120px 135px;
+  width: 25%;
+  padding: 120px 0 0 142px;
   height: 334px;
-}
-
-.row p {
-  padding: 0 0 10.5px;
-  margin-bottom: 12px;
 }
 
 #npm-install .btn {
@@ -176,4 +196,19 @@ article li {
 
 #npm-install .btn:hover {
   background-color: rgb(39, 53, 71);
+}
+
+#npm-features a {
+  color: rgb(203, 56, 55);
+  text-decoration: none;
+}
+
+#npm-features img {
+  display: block;
+  margin: 0 auto;
+}
+
+#npm-features .row {
+  width: 25%;
+  padding: 20px;
 }

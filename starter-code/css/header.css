@@ -1,0 +1,41 @@
+.top-header {
+  /*width: 100%;*/
+  padding: 20px 0;
+}
+
+
+.npm-logo {
+  width: 125px;
+  height: 50px;
+  float: left;
+  /*padding: 20px 0;*/
+}
+
+.search-box-container {
+  border: solid 1px;
+  float: left;
+  /*flex-grow: 1;*/
+}
+
+.search-box-container input {
+  height: 38px;
+  padding: 20px;
+}
+
+.search-box-container button {
+  width: 45px;
+  height: 45px;
+  box-sizing: content-box;
+}
+
+
+/*
+.container-bear {
+  padding: 20px 0;
+}*/
+
+
+.bear-logo {
+  width: 45px;
+  height: 55px;
+}
